@@ -66,7 +66,7 @@ var AppStore = merge(EventEmitter.prototype, {
     getCart: function() {
         return _cartItems;
     },
-    getCatelog: function() {
+    getCatalog: function() {
         return _catalog;
     },
     dispatcherIndex: AppDispatcher.register(function(payload) {
