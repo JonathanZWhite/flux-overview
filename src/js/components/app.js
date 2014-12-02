@@ -1,10 +1,14 @@
 /** @jsx React.DOM */
 var React = require('react');
+var AppActions = require('../actions/app-actions.js');
 
 var APP =
 	React.createClass({
+		handleClick: function() {
+			AppActions.addItem('this is the item');
+		},
 		render:function(){
-			return <h1>Flux overview</h1>
+			return <h1 onClick={this.handleClick}>Flux overview</h1>
 		}
 	});
 
