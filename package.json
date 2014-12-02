@@ -12,5 +12,6 @@
     "vinyl-source-stream": "^1.0.0"
   },
   "dependencies": {
+    "es6-promises": "^1.0.8"
   }
 }
